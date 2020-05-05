@@ -6,6 +6,6 @@ RUN mkdir -p /home/koa
 # 设置容器的工作目录为该目录
 WORKDIR /home/koa 
 # 向外提供3000端口
-EXPOSE 8000
+EXPOSE 3000
 # 容器创建完成后执行的命令
 CMD npm install --registry=https://registry.npm.taobao.org && node ./app.js
